@@ -1,6 +1,10 @@
 /*all*/
-.nH { background-color: #000000 !important; }
-/*unread */
+/*.nH { background-color: #000000 !important; }*/
+/*unread*/
 .zE { background-color: #2e2e2e !important; }
-/* read */
-/*.yO { background-color: #000000 !important; }*/
+/*read*/
+.yO { background-color: #000000 !important; }
+/*top-header*/
+.G-atb { background-color: #000000 !important; }
+/*inbox-sections*/
+.Wg { background-color: #000000 !important; }
