@@ -1,10 +1,18 @@
+:root {
+  --bgDarkUnread: #2e2e2e;
+  --bgDarkRead: #000000;
+  --bgDarkSelected: #174ea6;
+}
+
 /*all*/
-/*.nH { background-color: #000000 !important; }*/
+/*.nH { background-color: #000000 }*/
 /*unread*/
-.zE { background-color: #2e2e2e !important; }
+.zA.zE { background-color: var(--bgDarkUnread); }
 /*read*/
-.yO { background-color: #000000 !important; }
+.zA.yO { background-color: var(--bgDarkRead); }
 /*top-header*/
-.G-atb { background-color: #000000 !important; }
+.D.G-atb { background-color: var(--bgDarkRead); }
 /*inbox-sections*/
-.Wg { background-color: #000000 !important; }
+.nH.Wg { background-color: var(--bgDarkRead); }
+/*selected-row*/
+.zA.yO.x7 { color: #fff; background: var(--bgDarkSelected); }
