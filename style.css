@@ -8,11 +8,15 @@
 /*.nH { background-color: #000000 }*/
 /*unread*/
 .zA.zE { background-color: var(--bgDarkUnread); }
+/*unread-selected*/
+.zA.zE.x7 { color: #fff; background: var(--bgDarkSelected); }
 /*read*/
 .zA.yO { background-color: var(--bgDarkRead); }
+/*read-selected*/
+.zA.yO.x7 { color: #fff; background: var(--bgDarkSelected); }
 /*top-header*/
 .D.G-atb { background-color: var(--bgDarkRead); }
-/*inbox-sections*/
-.nH.Wg { background-color: var(--bgDarkRead); }
-/*selected-row*/
-.zA.yO.x7 { color: #fff; background: var(--bgDarkSelected); }
+/*inbox-sections (Important and undread, Starred, Everything else)*/
+.Wg.aAr { background-color: var(--bgDarkRead); }
+/*You've read all - message*/
+.aVj { background-color: var(--bgDarkRead); }
